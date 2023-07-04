@@ -1,0 +1,26 @@
+
+.container {
+    background-color: rgb(143, 96, 34);
+    margin: 10px;
+    padding: 10px;
+    border-radius: 15px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    display: flex;
+}
+
+.container > button {
+    margin-left: 20px;
+    width: 130px;
+}
+
+.select-menu {
+    display: flex;
+    justify-content: space-around;
+    font-weight: bold;
+    margin-left: 300px;
+}
+
+.select-menu > div {
+    margin-left: 20px;
+}

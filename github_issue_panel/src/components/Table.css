@@ -1,0 +1,120 @@
+.table-container {
+    margin: 10px;
+}
+
+.content-table {
+    width: 100%;
+    border-collapse: collapse;
+    border-radius: 15px 15px 0 0;
+    overflow: hidden;
+}
+
+.content-table thead tr {
+    background-color: rgb(143, 96, 34);
+    text-align: left;
+    font-weight: bold;
+}
+
+
+
+.content-table th,
+.content-table td {
+    padding: 12px 15px;
+    border: 1px solid black;
+}
+
+
+
+.content-table tbody tr td:first-child {
+    width: 400px;
+}
+
+.content-table tbody tr td:last-child {
+    width: 280px;
+}
+
+
+
+.content-table tbody tr,
+.content-table tbody tr a {
+    font-weight: bold;
+}
+
+.content-table tbody tr a:hover {
+    color: blue;
+}
+
+.content-table tbody tr:nth-of-type(even) {
+    background-color: #f3f3f3;
+}
+
+.content-table tbody tr:last-child {
+    border-bottom: 3px solid rgb(143, 96, 34);
+}
+
+.content-table tbody tr td a {
+    text-decoration: none;
+}
+
+
+.content-table tbody tr td ul {
+    list-style: none;
+    display: flex;
+    justify-content: left;
+    padding: 0;
+    flex-wrap: wrap;
+}
+
+.content-table tbody tr td ul li {
+    margin: 5px;
+    padding: 4px;
+    font-size: 12px;
+    padding-left: 4px;
+    border-radius: 10px;
+    width: fit-content;
+}
+
+.content-table tbody tr td:nth-child(2) {
+    width: 200px;
+}
+
+
+
+/* Anchor tag color related styles*/
+
+.green-color {
+    color: green;
+}
+
+.red-color {
+    color: red;
+}
+
+.orange-color {
+    color: orange;
+}
+
+/*css for previous and next buttons*/
+
+.btns {
+    background-color: rgb(143, 96, 34);
+    margin: 10px;
+    padding: 12px;
+    border-radius: 15px;
+    display: flex;
+    justify-content: center;
+}
+
+.prev-btn {
+    margin-right: 5px;
+    border-radius: 8px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.next-btn {
+    margin-left: 5px;
+    border-radius: 8px;
+    font-weight: bold;
+    cursor: pointer;
+}
